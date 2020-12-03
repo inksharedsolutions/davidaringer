@@ -111,12 +111,12 @@ const Contact = () =>{
 
 						<span>
 							<h5>Phone</h5>
-							888-323-7009
+							<a href="tel:8883237009" style={{color: 'black'}}>888-323-7009</a>
 						</span>
 
 						<span>
 							<h5>Email</h5>
-							publish@stratton-press.com
+							<a href="mailto:publish@stratton-press.com" style={{color: 'black'}}>publish@stratton-press.com</a>
 						</span>
 					</div>
 				</div>

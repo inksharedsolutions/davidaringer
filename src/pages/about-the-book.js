@@ -57,7 +57,7 @@ const abouttheauthor= (props) =>{
 									reporter, and always on Sebastian’s side.
 									Sebastian Cricket’s mission is simple: use the skills he learned as
 									an elite special operations soldier to help those in distress, by any
-									means necessary
+									means necessary.
 								</p>
 								<p>From the “Snow Viper”</p>
 								<p>

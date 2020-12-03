@@ -23,18 +23,25 @@
 }
 
 .btn-main-customize{
-    background: #92691e;
+    background: #c93228;
     border: none;
     padding: 1rem 5rem;
     margin-top: 37px;
     a{
-        background: #92691e;
-        color: #f3dfc3;
+        background: #c93228;
+        color: #fff;
         border: none;
         padding: 1rem 0.8rem;
         margin-top: 37px;
         text-transform: uppercase;
         font-weight: bold;
+    }
+}
+
+.btn-main-customize:hover{
+    background-color: #969696;
+    .Read-more{
+        background-color: #969696;
     }
 }
 

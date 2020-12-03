@@ -2,7 +2,7 @@ import React from 'react'
 import {faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Navlist from './links'
-import FooterLogo from '../assets/img/icon-logo/logo_v.png'
+import FooterLogo from '../assets/img/icon-logo/footer-logo.png'
 import { Link } from 'gatsby'
 	
 const footer = (props) =>{
@@ -21,7 +21,7 @@ const footer = (props) =>{
 								</span>
 
 								<h1>
-									David A. Ringer 
+									{/* David A. Ringer  */}
 								</h1>
 							</div>
 					

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Navlist from './links';
-import MainLogo from '../assets/img/icon-logo/logo_v.png'
+import MainLogo from '../assets/img/icon-logo/logo.png'
 
 
 class Navigation extends React.Component {
@@ -75,7 +75,7 @@ class Navigation extends React.Component {
 								<Link  to={'/'} >
 									
 									<img src={MainLogo} />
-									<h1>David A. Ringer</h1>
+									{/* <h1>David A. Ringer</h1> */}
 								
 								</Link>
 							</div>

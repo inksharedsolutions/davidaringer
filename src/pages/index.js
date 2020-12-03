@@ -14,7 +14,7 @@ const IndexPage = () => {
 			<span className="banr-tagline-fx">SEBASTIAN CRICKET</span>
 			<h1 className="banr-header-fx">
 				<span className="banr-spn-2"></span>  
-				<span className="banr-spn-highlight">Soldier, Crime Figther, Lover</span>
+				<span className="banr-spn-highlight">Soldier, Crime Fighter, Lover</span>
 
 				<Link
 					key=""

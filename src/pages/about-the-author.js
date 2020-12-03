@@ -34,7 +34,7 @@ const abouttheauthor= (props) =>{
 					 				<img id="author" src={icon} alt="author" />
 					 				<span className="author-name">
 					 					<span className="author-span-ft">Author |  Writer </span>
-					 					David Ringer
+					 					David A. Ringer
 					 				</span>
 					 			</div>
 
@@ -50,7 +50,7 @@ const abouttheauthor= (props) =>{
 					 	 	<article className="article-section">
 
 					 	 		<p>
-								   I will ask The QA about this
+								  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id risus et lorem semper tristique sed vitae felis. Integer sit amet semper orci, vitae iaculis lectus. Morbi et aliquam nisl. Nam in congue felis. Curabitur vulputate dolor et arcu elementum ultrices. Vestibulum tincidunt massa at ex lobortis, ac gravida enim ultrices. Pellentesque dictum nulla vel arcu dictum viverra. Donec ac enim dolor. Etiam eget libero dolor. Curabitur aliquam auctor ligula, a placerat dolor ultricies at. Aenean sem eros, mattis non dignissim id, viverra a ex. Nullam commodo in neque non efficitur.
 								</p>
 
 								<p>
