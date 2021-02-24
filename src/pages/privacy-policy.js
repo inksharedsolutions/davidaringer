@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Banner from "../components/banner"
 import { useStaticQuery, graphql } from "gatsby"
 import Parser from 'html-react-parser';
+import {Helmet} from 'react-helmet'
 
 const Pp = () =>{
 
@@ -39,7 +40,7 @@ const Pp = () =>{
 	return(
 		<>
 		 	<Layout>
-		 		
+			 <Helmet title="Privacy Policy | David Ringer"/>
 	 			<Banner bannerContext={bannerText} />
 
 	 			<div className="container">

@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import Banner from "../components/banner"
 import Inputs from "../components/Inputs/inputs"
-
+import {Helmet} from "react-helmet";
 
 const Contact = () =>{
 
@@ -40,6 +40,7 @@ const Contact = () =>{
 	return (
 
 		<Layout>
+		  	<Helmet title="Contact | David Ringer"/>
 
 			<Banner bannerContext={bannerText} />
 			<main className="flexMainContainer">

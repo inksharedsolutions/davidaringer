@@ -5,6 +5,7 @@ import Main from '../components/main'
 import MainBottom  from '../components/main-bottom'
 import Newsletter  from '../components/newsletter'
 import Banner from "../components/banner"
+import {Helmet} from 'react-helmet';
 
 const IndexPage = () => {
 	
@@ -27,8 +28,9 @@ const IndexPage = () => {
 
 	return (
 	  	<Layout>
+		  	<Helmet title="Home | David Ringer"/>
 	  		 <Banner bannerContext={bannerText} />
-			 <Main/>
+			 {/* <Main/> */}
 			 <MainBottom />
 			 <Newsletter />
 	  	</Layout>

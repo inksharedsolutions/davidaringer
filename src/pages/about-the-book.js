@@ -4,7 +4,7 @@ import Banner from "../components/banner"
 import Book from '../assets/img/books/two_book_perspective.png'
 import Book2 from '../assets/img/books/book_02.png'
 import { DiscussionEmbed } from "disqus-react"
-
+import {Helmet} from 'react-helmet';
 
 const abouttheauthor= (props) =>{
 
@@ -26,6 +26,7 @@ const abouttheauthor= (props) =>{
 
 	return(
 		<Layout>
+		  	<Helmet title="About the Book | David Ringer"/>
 			
 			<Banner bannerContext={bannerText} />
 
@@ -78,14 +79,14 @@ const abouttheauthor= (props) =>{
 							</section>
 
 							<nav className="booklinkBlocks">
-								<span>Ebooks :</span>
+								<span>Ebook :</span>
 								<li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Mysteries-Adventures-Sebastian-Cricket-Collection-ebook/dp/B085VLC6LT/ref=sr_1_1?dchild=1&keywords=9781643459684&qid=1606367213&sr=8-1">Amazon</a></li>
-								<li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/the-mysteries-and-adventures-of-sebastian-cricket-a-collection-of-stories-to-delight-the-devoted-readers-of-crime/">Stratton Press</a></li>
+								{/* <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/the-mysteries-and-adventures-of-sebastian-cricket-a-collection-of-stories-to-delight-the-devoted-readers-of-crime/">Stratton Press</a></li> */}
 								<li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/the-mysteries-and-adventures-of-sebastian-cricket-david-a-ringer/1136645436?ean=9781643459684">Barnes & Noble</a></li>
 							</nav>
 
 							<nav className="booklinkBlocks">
-								<span>Purchase Paperback :</span>
+								<span>Paperback :</span>
 								<li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Mysteries-Adventures-Sebastian-Cricket-Collection/dp/1643459678/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1606367281&sr=8-1">Amazon</a></li>
 								<li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/the-mysteries-and-adventures-of-sebastian-cricket-david-a-ringer/1136645436?ean=9781643459677">Barnes & Noble </a></li>
 								<li><a rel="noopener noreferrer" target="_blank" href="https://www.booksamillion.com/p/Mysteries-Adventures-Sebastian-Cricket/David-a-Ringer/9781643459677?id=8049069540563&_ga=2.19173048.144254833.1606293192-2145380449.1604906972">Books A Million</a></li>

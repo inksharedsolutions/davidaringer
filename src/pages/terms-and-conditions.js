@@ -4,6 +4,7 @@ import Banner from "../components/banner"
 
 import { useStaticQuery, graphql } from "gatsby"
 import Parser from 'html-react-parser';
+import {Helmet} from 'react-helmet';
 
 const TaC = () =>{
 
@@ -37,6 +38,7 @@ const TaC = () =>{
 	return(
 	 	<>
 	 		<Layout>
+			 <Helmet title="Terms and Conditions | David Ringer"/>
 	 			<Banner bannerContext={bannerText} />
 	 				<div className="container">
 						<div id="terms-and-conditions-content">
