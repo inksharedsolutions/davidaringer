@@ -22,7 +22,7 @@ const abouttheauthor= (props) =>{
 
 	return(
 		<Layout>
-		  	<Helmet title="About the Author | David Ringer"/>
+		  	<Helmet title="Dedication | David Ringer"/>
 			<Banner bannerContext={bannerText} />
 
 			<div className="container">
@@ -50,7 +50,7 @@ const abouttheauthor= (props) =>{
 					 	 	<article className="article-section">
 
 					 	 		<p>
-								  I would like to express gratitude to Pat Barnhart at Writing Down Pat for her editorial assistance in writing book.
+								  I would like to express gratitude to Pat Barnhart at Writing Down Pat for her editorial assistance in writing this book.
 								</p>
 
 								<p>

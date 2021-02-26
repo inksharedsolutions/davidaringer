@@ -51,7 +51,7 @@ class Navigation extends React.Component {
 										<Link to="/">Home</Link>
 									</li>
 									<li>
-										<Link to="/dedication">ABOUT THE AUTHOR</Link>
+										<Link to="/dedication">DEDICATION</Link>
 									</li>
 									<li>
 										<Link to="/about-the-book">ABOUT THE BOOK</Link>
@@ -91,7 +91,7 @@ class Navigation extends React.Component {
 								<Link to="/">Home</Link>
 							</li>
 							<li>
-								<Link to="/dedication">ABOUT THE AUTHOR</Link>
+								<Link to="/dedication">DEDICATION</Link>
 							</li>
 							<li>
 								<Link to="/about-the-book">ABOUT THE BOOK</Link>
