@@ -41,7 +41,7 @@ const footer = (props) =>{
 									<Link to="/">Home</Link>
 								</li>
 								<li>
-									<Link to="/dedication">ABOUT THE AUTHOR</Link>
+									<Link to="/dedication">Dedication</Link>
 								</li>
 								<li>
 									<Link to="/about-the-book">ABOUT THE BOOK</Link>
