@@ -326,14 +326,23 @@
 
 }	
 
-
 @media only screen and (max-width:  400px ){
+	.logo-container-fx{
+		img{
+			width: 150px;
+		} 
+	}
+}
+
+@media only screen and (min-width:  400px ){
 	.logo-container-fx{
 		img{
 			width: 150px;
 		}
 	}
-
+	#span-non-front{
+		font-size: 1.2em;
+	}
 }
 
 @media only screen and(max-width: 375px){
@@ -342,8 +351,14 @@
 	}
 }
 
+@media only screen and (max-width: 392px){
+	#span-non-front{
+		font-size: 1.2em;
+	}
+}
+
 @media only screen and (max-width:  350px ){
 	#span-non-front{
-		font-size: 1.6em;
+		font-size: 1.2em;
 	}
 }
